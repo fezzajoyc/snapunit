@@ -4,7 +4,7 @@ const en = {
   brand: "SnapUnit",
   tagline: "Every conversion runs in your browser.",
   metaDesc:
-    "6 precise unit converters: length (millimeters to light-years), weight, temperature, fuel economy, paper sizes and angles. All run in your browser — free, no signup, nothing you type leaves your device.",
+    "6 unit converters: length, weight, temperature, fuel economy, paper sizes and angles. In your browser — free, no signup, nothing leaves your device.",
 
   nav: {
     tools: "All tools",
