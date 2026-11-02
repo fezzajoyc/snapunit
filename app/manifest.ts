@@ -1,0 +1,15 @@
+import type { MetadataRoute } from "next";
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: "SnapUnit — every unit, converted instantly",
+    short_name: "SnapUnit",
+    description:
+      "Unit converters that run entirely in your browser: length, weight, temperature, fuel economy, paper sizes and angles. Nothing you type leaves your device.",
+    start_url: "/en",
+    display: "standalone",
+    background_color: "#ffffff",
+    theme_color: "#0d9488",
+    icons: [{ src: "/icon.svg", sizes: "any", type: "image/svg+xml" }],
+  };
+}
