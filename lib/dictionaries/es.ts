@@ -83,6 +83,7 @@ const es: Dictionary = {
   },
 
   common: {
+    openTool: "Abrir herramienta",
     copy: "Copiar",
     copied: "Copiado",
     download: "Descargar",
