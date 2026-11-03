@@ -19,6 +19,10 @@ const ja: Dictionary = {
     heroSub:
       "普通の換算サイトより深い {n} 個のコンバーター:ミリメートルから光年まで 15 単位の長さ、5 温標、逆数関係の燃費、紙サイズ、角度。すべてブラウザ内で完結 — 高速・無料・登録不要。",
     browseAll: "すべてのツールを見る",
+    pinned: "ピン留め",
+    pin: "トップに固定",
+    unpin: "固定を解除",
+    popular: "人気のツール",
     categoriesTitle: "カテゴリー",
     featuredTitle: "人気のツール",
     trustLocal: "数値はデバイスから出ません",
@@ -76,6 +80,8 @@ const ja: Dictionary = {
     howTo: "使い方",
     faq: "よくある質問",
     related: "関連ツール",
+    nextStep: "次のステップ",
+    copyLink: "リンクをコピー",
     privacyNote:
       "このツールは完全にブラウザ内で動作します。データは端末から出ず、サーバーへアップロードされることはありません。",
     inCategory: "{category}のその他のツール",

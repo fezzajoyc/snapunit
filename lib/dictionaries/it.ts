@@ -19,6 +19,10 @@ const it = {
     heroSub:
       "{n} convertitori più completi del solito: quindici lunghezze da millimetri ad anni luce, cinque scale di temperatura, i consumi con la relazione inversa in MPG, formati carta e angoli. Tutto in locale nel browser — veloce, gratis, senza registrazione.",
     browseAll: "Sfoglia tutti gli strumenti",
+    pinned: "Fissati",
+    pin: "Fissa in alto",
+    unpin: "Rimuovi dai fissati",
+    popular: "Popolari adesso",
     categoriesTitle: "Categorie",
     featuredTitle: "Strumenti popolari",
     trustLocal: "I numeri restano sul tuo dispositivo",
@@ -77,6 +81,8 @@ const it = {
     howTo: "Come si usa",
     faq: "Domande frequenti",
     related: "Strumenti correlati",
+    nextStep: "Passaggi successivi",
+    copyLink: "Copia link",
     privacyNote:
       "Questo strumento gira interamente nel tuo browser. I tuoi dati non lasciano mai il dispositivo: non vengono caricati su nessun server.",
     inCategory: "Altri in {category}",

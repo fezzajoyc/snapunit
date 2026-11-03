@@ -19,6 +19,10 @@ const vi = {
     heroSub:
       "{n} công cụ đổi đơn vị đi sâu hơn thông thường: mười lăm đơn vị chiều dài từ milimet đến năm ánh sáng, năm thang nhiệt độ, mức tiêu hao với quan hệ nghịch đảo MPG, khổ giấy và góc. Tất cả chạy cục bộ trong trình duyệt — nhanh, miễn phí, không cần đăng ký.",
     browseAll: "Xem tất cả công cụ",
+    pinned: "Đã ghim",
+    pin: "Ghim lên đầu",
+    unpin: "Bỏ ghim",
+    popular: "Phổ biến ngay bây giờ",
     categoriesTitle: "Danh mục",
     featuredTitle: "Công cụ phổ biến",
     trustLocal: "Số liệu ở lại trên thiết bị của bạn",
@@ -77,6 +81,8 @@ const vi = {
     howTo: "Cách sử dụng",
     faq: "Câu hỏi thường gặp",
     related: "Công cụ liên quan",
+    nextStep: "Bước tiếp theo",
+    copyLink: "Sao chép liên kết",
     privacyNote:
       "Công cụ này chạy hoàn toàn trong trình duyệt của bạn. Dữ liệu không bao giờ rời khỏi thiết bị — không được tải lên bất kỳ máy chủ nào.",
     inCategory: "Xem thêm trong {category}",

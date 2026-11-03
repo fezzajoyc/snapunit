@@ -19,6 +19,10 @@ const es: Dictionary = {
     heroSub:
       "{n} conversores que van más allá de lo habitual: quince longitudes de milímetros a años luz, cinco escalas de temperatura, el consumo con su relación inversa de MPG, tamaños de papel y ángulos. Todo se calcula en tu navegador: rápido, gratis y sin registro.",
     browseAll: "Ver todas las herramientas",
+    pinned: "Fijados",
+    pin: "Fijar arriba",
+    unpin: "Quitar de fijados",
+    popular: "Populares ahora",
     categoriesTitle: "Categorías",
     featuredTitle: "Herramientas populares",
     trustLocal: "Los números se quedan en tu dispositivo",
@@ -76,6 +80,8 @@ const es: Dictionary = {
     howTo: "Cómo usarlo",
     faq: "Preguntas frecuentes",
     related: "Herramientas relacionadas",
+    nextStep: "Siguientes pasos",
+    copyLink: "Copiar enlace",
     privacyNote:
       "Esta herramienta funciona por completo en tu navegador. Tus datos nunca salen de tu dispositivo y no se suben a ningún servidor.",
     inCategory: "Más de {category}",

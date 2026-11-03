@@ -19,6 +19,10 @@ const de = {
     heroSub:
       "{n} Umrechner, die tiefer gehen als üblich: fünfzehn Längen von Millimetern bis Lichtjahren, fünf Temperaturskalen, Kraftstoffverbrauch mit umgekehrter MPG-Beziehung, Papierformate und Winkel. Alles läuft lokal im Browser — schnell, kostenlos, ohne Anmeldung.",
     browseAll: "Alle Tools ansehen",
+    pinned: "Angepinnt",
+    pin: "Oben anpinnen",
+    unpin: "Nicht mehr anpinnen",
+    popular: "Gerade beliebt",
     categoriesTitle: "Kategorien",
     featuredTitle: "Beliebte Tools",
     trustLocal: "Zahlen bleiben auf Ihrem Gerät",
@@ -77,6 +81,8 @@ const de = {
     howTo: "So verwenden Sie es",
     faq: "Häufige Fragen",
     related: "Verwandte Tools",
+    nextStep: "Nächste Schritte",
+    copyLink: "Link kopieren",
     privacyNote:
       "Dieses Tool läuft vollständig in Ihrem Browser. Ihre Daten verlassen Ihr Gerät nie — sie werden auf keinen Server hochgeladen.",
     inCategory: "Mehr in {category}",
