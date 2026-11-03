@@ -10,74 +10,29 @@ type Faq = { q: string; a: string };
 
 const GLOBAL: Partial<Record<Locale, Faq[]>> = {
   en: [
-    {
-      q: "Is this tool free to use?",
-      a: "Yes, completely free — no signup, no subscription, no daily limits, and no watermarks on the output.",
-    },
-    {
-      q: "Does my data leave my device?",
-      a: "No. The tool runs entirely in your browser with JavaScript. Nothing you type or upload is sent to a server, so it even works offline once the page has loaded.",
-    },
-    {
-      q: "Which browsers does it work in?",
-      a: "Any modern browser — Chrome, Firefox, Safari and Edge on desktop and mobile. No plugins or extensions are needed.",
-    },
+    { q: "How precise are SnapUnit's conversions?", a: "SnapUnit uses exact international definitions — SI factors and NIST constants — and shows results to six significant digits, more than any practical unit conversion task needs." },
+    { q: "Does SnapUnit work without internet?", a: "Yes. The conversion table ships with the page: after loading, every unit conversion calculation runs offline in your browser with no server involved." },
+    { q: "Why choose SnapUnit over a search box?", a: "Speed and context: SnapUnit shows all related units at once, keeps your recent conversions, and works offline — a search box gives you one number with no nearby context." },
   ],
   zh: [
-    {
-      q: "这个工具免费吗?",
-      a: "完全免费 — 无需注册、没有订阅、无每日限额,输出不带水印。",
-    },
-    {
-      q: "我的数据会传到服务器吗?",
-      a: "不会。工具完全在浏览器里用 JavaScript 运行,输入的文件和内容不会发送到任何服务器;页面加载后断网也能用。",
-    },
-    {
-      q: "支持哪些浏览器?",
-      a: "所有现代浏览器 — Chrome、Firefox、Safari、Edge,桌面和移动端通用,无需安装插件。",
-    },
+    { q: "SnapUnit的换算精度如何?", a: "SnapUnit使用精确的国际定义 — SI 换算系数和 NIST 常量 — 结果显示 6 位有效数字,远超任何实际单位换算场景所需。" },
+    { q: "不用联网也能用吗?", a: "可以。换算表随页面一起加载:加载完成后,所有单位换算计算都在浏览器离线完成,不经过任何服务器。" },
+    { q: "和搜索框换算比有什么优势?", a: "更快且有上下文:SnapUnit一次显示所有相关单位、保留最近换算、离线可用 — 搜索框只给一个孤零零的数字。" },
   ],
   ja: [
-    {
-      q: "このツールは無料ですか?",
-      a: "完全無料です。登録・課金・回数制限はなく、出力にウォーターマークも入りません。",
-    },
-    {
-      q: "入力したデータは外部に送信されますか?",
-      a: "送信されません。すべてブラウザ内の JavaScript で処理されるため、入力・ファイルはサーバーに送られず、読み込み後はオフラインでも動作します。",
-    },
-    {
-      q: "対応ブラウザは?",
-      a: "Chrome / Firefox / Safari / Edge の最新版(デスクトップ・モバイル共通)。プラグインや拡張機能は不要です。",
-    },
+    { q: "SnapUnitの変換精度は?", a: "SnapUnitは正確な国際定義(SI 換算係数と NIST 定数)を使用し、実用上十分な 6 桁の有効数字で表示します。" },
+    { q: "オフラインでも使えますか?", a: "使えます。換算表はページに同梱されており、読み込み後はすべてのunit conversion計算がブラウザ内でオフライン実行されます。" },
+    { q: "検索ボックスと比べた利点は?", a: "速さと文脈です。SnapUnitは関連単位を一括表示し、最近の換算を保持し、オフラインでも動作します。検索ボックスは文脈のない 1 つの数値を返すだけです。" },
   ],
   es: [
-    {
-      q: "¿Esta herramienta es gratis?",
-      a: "Sí, totalmente gratis: sin registro, sin suscripción, sin límites diarios y sin marcas de agua.",
-    },
-    {
-      q: "¿Mis datos salen de mi dispositivo?",
-      a: "No. Todo se procesa con JavaScript en tu navegador; nada se envía a un servidor. Incluso funciona sin conexión una vez cargada la página.",
-    },
-    {
-      q: "¿En qué navegadores funciona?",
-      a: "Cualquier navegador moderno: Chrome, Firefox, Safari y Edge, en escritorio y móvil. Sin plugins ni extensiones.",
-    },
+    { q: "¿Qué precisión tienen las conversiones de SnapUnit?", a: "SnapUnit usa definiciones internacionales exactas — factores SI y constantes NIST — y muestra seis cifras significativas, más que ninguna tarea práctica de unit conversion necesita." },
+    { q: "¿Funciona sin internet?", a: "Sí. La tabla de conversión viaja con la página: tras cargarla, cada cálculo de unit conversion se ejecuta sin conexión en tu navegador, sin servidores." },
+    { q: "¿Por qué SnapUnit y no un buscador?", a: "Rapidez y contexto: SnapUnit muestra todas las unidades relacionadas a la vez, conserva tus conversiones recientes y funciona offline — un buscador da un solo número sin contexto." },
   ],
   pt: [
-    {
-      q: "Esta ferramenta é gratuita?",
-      a: "Sim, totalmente gratuita — sem cadastro, sem assinatura, sem limites diários e sem marcas d'água.",
-    },
-    {
-      q: "Meus dados saem do dispositivo?",
-      a: "Não. A ferramenta roda inteiramente no seu navegador com JavaScript; nada é enviado a servidores e funciona até offline depois de carregada.",
-    },
-    {
-      q: "Quais navegadores são suportados?",
-      a: "Qualquer navegador moderno — Chrome, Firefox, Safari e Edge, no desktop e no celular. Nenhum plugin necessário.",
-    },
+    { q: "Qual a precisão das conversões do SnapUnit?", a: "O SnapUnit usa definições internacionais exatas — fatores SI e constantes NIST — e mostra seis algarismos significativos, mais do que qualquer tarefa prática de unit conversion exige." },
+    { q: "Funciona sem internet?", a: "Sim. A tabela de conversão vem com a página: depois de carregada, cada cálculo de unit conversion roda offline no seu navegador, sem servidores." },
+    { q: "Por que usar o SnapUnit em vez de uma busca?", a: "Velocidade e contexto: o SnapUnit mostra todas as unidades relacionadas de uma vez, guarda conversões recentes e funciona offline — uma busca devolve um número solto." },
   ],
 };
 
